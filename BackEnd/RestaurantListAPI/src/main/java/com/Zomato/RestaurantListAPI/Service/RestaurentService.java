@@ -67,7 +67,7 @@ public class RestaurentService implements ListService{
 		
 		
 		
-		
+		//As the model was auto created this code was causing problem so defined model explicitly 
 		
 //		try {
 //			
