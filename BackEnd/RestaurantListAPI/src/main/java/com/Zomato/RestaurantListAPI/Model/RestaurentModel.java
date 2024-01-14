@@ -45,10 +45,10 @@ public class RestaurentModel {
 		this.imagePath = imagePath;
 	}
 	public String getRestaurentName() {
-		return RestaurentName;
+		return restaurentName;
 	}
 	public void setRestaurentName(String restaurentName) {
-		RestaurentName = restaurentName;
+		restaurentName = restaurentName;
 	}
 	public double getRating() {
 		return rating;
@@ -88,7 +88,7 @@ public class RestaurentModel {
 	}
 	String imagePath;
 	String ownerEmail;
-	String RestaurentName;
+	String restaurentName;
 	double rating;
 	public RestaurentModel(int restaurentID, String imagePath, String ownerEmail, String restaurentName, double rating,
 			List<String> speciality, double price, int distance, String cityName, int pinCode) {
@@ -96,7 +96,7 @@ public class RestaurentModel {
 		this.restaurentID = restaurentID;
 		this.imagePath = imagePath;
 		this.ownerEmail = ownerEmail;
-		RestaurentName = restaurentName;
+		restaurentName = restaurentName;
 		this.rating = rating;
 		Speciality = speciality;
 		this.price = price;
